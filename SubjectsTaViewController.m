@@ -7,13 +7,16 @@
 //
 
 #import "SubjectsTaViewController.h"
-
+#import <AFNetworking/AFNetworking.h>
+#import <AFHTTPRequestOperation.h>
+#import <AFURLConnectionOperation.h>
 @interface SubjectsTaViewController ()
 
 @end
 
 @implementation SubjectsTaViewController
-
+@synthesize subject;
+@synthesize products;
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -44,28 +47,43 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    products  = [[NSArray alloc] init];
+    
+    NSURL *URL = [NSURL URLWithString:@"http://10.184.18.15/igrades/students/1051.json"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+    AFHTTPRequestOperation *op = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    op.responseSerializer = [AFJSONResponseSerializer serializer];
+    [op setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"JSON: %@", responseObject);
+        NSDictionary *jsonDict = (NSDictionary *) responseObject;
+        subject = [[jsonDict objectForKey:@"students"] objectForKey:@"Grade"];
+       
+       
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"Error: %@", error);
+    }];
+    [[NSOperationQueue mainQueue] addOperation:op];
+    
+    products = [subject objectForKey:@"materia"];
+     NSLog(@"Products = %@", products);
+    return 6;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    if ([[segue identifier] isEqualToString:@"detailedInfoSegue"]) {
     
-    // Configure the cell...
-    
-    return cell;
+    }
 }
-
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

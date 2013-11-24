@@ -35,4 +35,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)detailButton:(id)sender {
+    [self performSegueWithIdentifier:@"showGrades" sender:self];
+    
+}
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showGrades"]) {
+        
+        
+    }
+}
 @end

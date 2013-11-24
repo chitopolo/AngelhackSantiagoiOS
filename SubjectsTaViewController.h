@@ -10,4 +10,7 @@
 
 @interface SubjectsTaViewController : UITableViewController
 
+@property (nonatomic, strong) NSDictionary * subject;
+@property (nonatomic, strong) NSArray *products;
+
 @end

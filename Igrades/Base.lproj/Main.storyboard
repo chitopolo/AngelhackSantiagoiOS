@@ -413,7 +413,13 @@
                             <outlet property="delegate" destination="N1M-2A-Wwp" id="v36-tJ-9Xo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Maria Polo" id="1PO-3J-Q1y"/>
+                    <navigationItem key="navigationItem" title="Maria Polo" id="1PO-3J-Q1y">
+                        <barButtonItem key="rightBarButtonItem" systemItem="organize" id="eTK-o6-Wcc">
+                            <connections>
+                                <segue destination="IHu-oo-sJ2" kind="push" id="wmY-EB-7cH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIC-TN-t66" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -481,6 +487,10 @@
                                 <rect key="frame" x="-6" y="113" width="326" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quimica2.png" translatesAutoresizingMaskIntoConstraints="NO" id="TiQ-da-uUe">
+                                <rect key="frame" x="0.0" y="313" width="326" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -489,6 +499,63 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="czx-fH-X5o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2183" y="205"/>
+        </scene>
+        <!--View Controller - Calendar-->
+        <scene sceneID="rdz-E2-OFW">
+            <objects>
+                <viewController id="IHu-oo-sJ2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I2X-He-PPH"/>
+                        <viewControllerLayoutGuide type="bottom" id="4GQ-j6-FYe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="THc-VB-ogy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YMc-B5-Cbj">
+                                <rect key="frame" x="0.0" y="119" width="320" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JJC-J9-5lg">
+                                <rect key="frame" x="0.0" y="76" width="320" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar -  events " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNT-GB-lrw">
+                                        <rect key="frame" x="15" y="13" width="219" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90252311860000001" green="0.68378696059999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calendar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JyZ-Hv-nCP">
+                                <rect key="frame" x="0.0" y="386" width="320" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="93B-fe-oQG">
+                                <rect key="frame" x="0.0" y="343" width="320" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar -  tests" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMh-Sj-wCU">
+                                        <rect key="frame" x="15" y="13" width="219" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90252311860000001" green="0.68378696059999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Calendar" id="AXh-gg-TPg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Npk-6w-hug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1724" y="960"/>
         </scene>
         <!--View Controller - Quimica-->
         <scene sceneID="zzm-3w-h5h">
@@ -548,6 +615,14 @@
                                 <rect key="frame" x="0.0" y="509" width="320" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quimica.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rbi-ng-Aur">
+                                <rect key="frame" x="0.0" y="313" width="326" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2013-11-24 at 11.49.07 AM.png" translatesAutoresizingMaskIntoConstraints="NO" id="af7-cY-Bce">
+                                <rect key="frame" x="0.0" y="113" width="326" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -580,7 +655,10 @@
     <resources>
         <image name="RenePoloSalinas.jpg" width="175" height="175"/>
         <image name="Screen Shot 2013-11-24 at 11.49.07 AM.png" width="1826" height="844"/>
+        <image name="Screen Shot 2013-11-24 at 11.49.07 AM.png" width="1826" height="844"/>
         <image name="Screen Shot 2013-11-24 at 11.52.50 AM.png" width="1796" height="854"/>
+        <image name="calendar.jpg" width="644" height="398"/>
+        <image name="calendar.jpg" width="644" height="398"/>
         <image name="calendar.jpg" width="644" height="398"/>
         <image name="calendar.jpg" width="644" height="398"/>
         <image name="calendar.jpg" width="644" height="398"/>
@@ -594,6 +672,8 @@
         <image name="maskpicture2.png" width="600" height="696"/>
         <image name="maskpicture2.png" width="600" height="696"/>
         <image name="quimica.jpg" width="1764" height="784"/>
+        <image name="quimica.jpg" width="1764" height="784"/>
+        <image name="quimica2.png" width="1796" height="826"/>
         <image name="sergiopolo.JPG" width="480" height="640"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

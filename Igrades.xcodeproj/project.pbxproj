@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F123ED0FDBA4D8DBDC20E29 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C318A0F7CF5B4B57B4093EB0 /* libPods.a */; };
+		609275B01841D79900A866D8 /* Students.m in Sources */ = {isa = PBXBuildFile; fileRef = 609275AF1841D79900A866D8 /* Students.m */; };
+		609275B21842232700A866D8 /* RenePoloSalinas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609275B11842232600A866D8 /* RenePoloSalinas.jpg */; };
+		609275B4184224F400A866D8 /* calendar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609275B3184224F400A866D8 /* calendar.jpg */; };
+		609275B6184226FE00A866D8 /* kelly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609275B5184226FE00A866D8 /* kelly.jpg */; };
+		609275B918424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.52.50 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 609275B718424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.52.50 AM.png */; };
+		609275BA18424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.49.07 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 609275B818424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.49.07 AM.png */; };
+		609275BC18424ABB00A866D8 /* quimica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609275BB18424ABB00A866D8 /* quimica.jpg */; };
+		609275BE18424AF500A866D8 /* quimica2.png in Resources */ = {isa = PBXBuildFile; fileRef = 609275BD18424AF500A866D8 /* quimica2.png */; };
+		60E7849B1841C94500AE981B /* SubjectsTaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E7849A1841C94500AE981B /* SubjectsTaViewController.m */; };
+		60E7849E1841CD3200AE981B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E7849D1841CD3200AE981B /* ProfileViewController.m */; };
 		60E7FA5D1841A0A500B9A940 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E7FA5C1841A0A500B9A940 /* Foundation.framework */; };
 		60E7FA5F1841A0A500B9A940 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E7FA5E1841A0A500B9A940 /* CoreGraphics.framework */; };
 		60E7FA611841A0A500B9A940 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E7FA601841A0A500B9A940 /* UIKit.framework */; };
@@ -21,6 +32,14 @@
 		60E7FA7E1841A0A600B9A940 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E7FA601841A0A500B9A940 /* UIKit.framework */; };
 		60E7FA861841A0A600B9A940 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E7FA841841A0A600B9A940 /* InfoPlist.strings */; };
 		60E7FA881841A0A600B9A940 /* IgradesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E7FA871841A0A600B9A940 /* IgradesTests.m */; };
+		60E7FA921841A50D00B9A940 /* imageparents.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60E7FA911841A50D00B9A940 /* imageparents.jpg */; };
+		60E7FA941841AB5300B9A940 /* backorange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60E7FA931841AB5300B9A940 /* backorange.jpg */; };
+		60E7FA9C1841B50100B9A940 /* sergiopolo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 60E7FA9B1841B50100B9A940 /* sergiopolo.JPG */; };
+		60E7FA9E1841B55A00B9A940 /* girlpolo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 60E7FA9D1841B55A00B9A940 /* girlpolo.JPG */; };
+		60E7FAA01841B64000B9A940 /* loreburgoa.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 60E7FA9F1841B64000B9A940 /* loreburgoa.JPG */; };
+		60E7FAA21841B68900B9A940 /* rene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60E7FAA11841B68900B9A940 /* rene.jpg */; };
+		60E7FAA81841BB3000B9A940 /* igrades2.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E7FAA71841BB3000B9A940 /* igrades2.png */; };
+		60E7FAAC1841C4EE00B9A940 /* maskpicture2.png in Resources */ = {isa = PBXBuildFile; fileRef = 60E7FAAB1841C4EE00B9A940 /* maskpicture2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +53,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		609275AE1841D79900A866D8 /* Students.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Students.h; sourceTree = "<group>"; };
+		609275AF1841D79900A866D8 /* Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Students.m; sourceTree = "<group>"; };
+		609275B11842232600A866D8 /* RenePoloSalinas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RenePoloSalinas.jpg; sourceTree = "<group>"; };
+		609275B3184224F400A866D8 /* calendar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calendar.jpg; sourceTree = "<group>"; };
+		609275B5184226FE00A866D8 /* kelly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kelly.jpg; sourceTree = "<group>"; };
+		609275B718424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.52.50 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-11-24 at 11.52.50 AM.png"; sourceTree = "<group>"; };
+		609275B818424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.49.07 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-11-24 at 11.49.07 AM.png"; sourceTree = "<group>"; };
+		609275BB18424ABB00A866D8 /* quimica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quimica.jpg; sourceTree = "<group>"; };
+		609275BD18424AF500A866D8 /* quimica2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quimica2.png; sourceTree = "<group>"; };
+		60E784991841C94500AE981B /* SubjectsTaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectsTaViewController.h; sourceTree = "<group>"; };
+		60E7849A1841C94500AE981B /* SubjectsTaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectsTaViewController.m; sourceTree = "<group>"; };
+		60E7849C1841CD3200AE981B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		60E7849D1841CD3200AE981B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		60E7FA591841A0A500B9A940 /* Igrades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Igrades.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E7FA5C1841A0A500B9A940 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60E7FA5E1841A0A500B9A940 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +85,16 @@
 		60E7FA831841A0A600B9A940 /* IgradesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IgradesTests-Info.plist"; sourceTree = "<group>"; };
 		60E7FA851841A0A600B9A940 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60E7FA871841A0A600B9A940 /* IgradesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IgradesTests.m; sourceTree = "<group>"; };
+		60E7FA911841A50D00B9A940 /* imageparents.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageparents.jpg; sourceTree = "<group>"; };
+		60E7FA931841AB5300B9A940 /* backorange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backorange.jpg; sourceTree = "<group>"; };
+		60E7FA9B1841B50100B9A940 /* sergiopolo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sergiopolo.JPG; sourceTree = "<group>"; };
+		60E7FA9D1841B55A00B9A940 /* girlpolo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girlpolo.JPG; sourceTree = "<group>"; };
+		60E7FA9F1841B64000B9A940 /* loreburgoa.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loreburgoa.JPG; sourceTree = "<group>"; };
+		60E7FAA11841B68900B9A940 /* rene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rene.jpg; sourceTree = "<group>"; };
+		60E7FAA71841BB3000B9A940 /* igrades2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = igrades2.png; sourceTree = "<group>"; };
+		60E7FAAB1841C4EE00B9A940 /* maskpicture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maskpicture2.png; sourceTree = "<group>"; };
+		C318A0F7CF5B4B57B4093EB0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D661F3EBDE95403881C81AA6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +105,7 @@
 				60E7FA5F1841A0A500B9A940 /* CoreGraphics.framework in Frameworks */,
 				60E7FA611841A0A500B9A940 /* UIKit.framework in Frameworks */,
 				60E7FA5D1841A0A500B9A940 /* Foundation.framework in Frameworks */,
+				0F123ED0FDBA4D8DBDC20E29 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,10 +125,17 @@
 		60E7FA501841A0A500B9A940 = {
 			isa = PBXGroup;
 			children = (
+				609275AE1841D79900A866D8 /* Students.h */,
+				609275AF1841D79900A866D8 /* Students.m */,
+				60E7849C1841CD3200AE981B /* ProfileViewController.h */,
+				60E7849D1841CD3200AE981B /* ProfileViewController.m */,
+				60E784991841C94500AE981B /* SubjectsTaViewController.h */,
+				60E7849A1841C94500AE981B /* SubjectsTaViewController.m */,
 				60E7FA621841A0A500B9A940 /* Igrades */,
 				60E7FA811841A0A600B9A940 /* IgradesTests */,
 				60E7FA5B1841A0A500B9A940 /* Frameworks */,
 				60E7FA5A1841A0A500B9A940 /* Products */,
+				D661F3EBDE95403881C81AA6 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +155,7 @@
 				60E7FA5E1841A0A500B9A940 /* CoreGraphics.framework */,
 				60E7FA601841A0A500B9A940 /* UIKit.framework */,
 				60E7FA7B1841A0A600B9A940 /* XCTest.framework */,
+				C318A0F7CF5B4B57B4093EB0 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,9 +164,24 @@
 			isa = PBXGroup;
 			children = (
 				60E7FA6B1841A0A600B9A940 /* AppDelegate.h */,
+				609275B3184224F400A866D8 /* calendar.jpg */,
+				609275B11842232600A866D8 /* RenePoloSalinas.jpg */,
+				609275BB18424ABB00A866D8 /* quimica.jpg */,
+				609275B718424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.52.50 AM.png */,
+				609275BD18424AF500A866D8 /* quimica2.png */,
+				609275B818424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.49.07 AM.png */,
+				609275B5184226FE00A866D8 /* kelly.jpg */,
 				60E7FA6C1841A0A600B9A940 /* AppDelegate.m */,
 				60E7FA6E1841A0A600B9A940 /* Main.storyboard */,
+				60E7FAA11841B68900B9A940 /* rene.jpg */,
+				60E7FA9F1841B64000B9A940 /* loreburgoa.JPG */,
+				60E7FAAB1841C4EE00B9A940 /* maskpicture2.png */,
+				60E7FAA71841BB3000B9A940 /* igrades2.png */,
+				60E7FA9B1841B50100B9A940 /* sergiopolo.JPG */,
+				60E7FA9D1841B55A00B9A940 /* girlpolo.JPG */,
+				60E7FA931841AB5300B9A940 /* backorange.jpg */,
 				60E7FA711841A0A600B9A940 /* ViewController.h */,
+				60E7FA911841A50D00B9A940 /* imageparents.jpg */,
 				60E7FA721841A0A600B9A940 /* ViewController.m */,
 				60E7FA741841A0A600B9A940 /* Images.xcassets */,
 				60E7FA631841A0A500B9A940 /* Supporting Files */,
@@ -159,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60E7FA8B1841A0A600B9A940 /* Build configuration list for PBXNativeTarget "Igrades" */;
 			buildPhases = (
+				8A8D2972F9CC438CBA452622 /* Check Pods Manifest.lock */,
 				60E7FA551841A0A500B9A940 /* Sources */,
 				60E7FA561841A0A500B9A940 /* Frameworks */,
 				60E7FA571841A0A500B9A940 /* Resources */,
+				E46D84D66716424182ADE31F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,9 +296,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E7FAA01841B64000B9A940 /* loreburgoa.JPG in Resources */,
+				609275B6184226FE00A866D8 /* kelly.jpg in Resources */,
+				609275BE18424AF500A866D8 /* quimica2.png in Resources */,
+				60E7FAA21841B68900B9A940 /* rene.jpg in Resources */,
+				609275BC18424ABB00A866D8 /* quimica.jpg in Resources */,
+				609275B4184224F400A866D8 /* calendar.jpg in Resources */,
+				60E7FAAC1841C4EE00B9A940 /* maskpicture2.png in Resources */,
+				60E7FAA81841BB3000B9A940 /* igrades2.png in Resources */,
 				60E7FA751841A0A600B9A940 /* Images.xcassets in Resources */,
+				609275BA18424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.49.07 AM.png in Resources */,
+				609275B21842232700A866D8 /* RenePoloSalinas.jpg in Resources */,
 				60E7FA671841A0A500B9A940 /* InfoPlist.strings in Resources */,
 				60E7FA701841A0A600B9A940 /* Main.storyboard in Resources */,
+				609275B918424A5C00A866D8 /* Screen Shot 2013-11-24 at 11.52.50 AM.png in Resources */,
+				60E7FA921841A50D00B9A940 /* imageparents.jpg in Resources */,
+				60E7FA9C1841B50100B9A940 /* sergiopolo.JPG in Resources */,
+				60E7FA941841AB5300B9A940 /* backorange.jpg in Resources */,
+				60E7FA9E1841B55A00B9A940 /* girlpolo.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +327,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A8D2972F9CC438CBA452622 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E46D84D66716424182ADE31F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60E7FA551841A0A500B9A940 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E7849B1841C94500AE981B /* SubjectsTaViewController.m in Sources */,
 				60E7FA731841A0A600B9A940 /* ViewController.m in Sources */,
 				60E7FA6D1841A0A600B9A940 /* AppDelegate.m in Sources */,
 				60E7FA691841A0A500B9A940 /* main.m in Sources */,
+				60E7849E1841CD3200AE981B /* ProfileViewController.m in Sources */,
+				609275B01841D79900A866D8 /* Students.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +494,7 @@
 		};
 		60E7FA8C1841A0A600B9A940 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D661F3EBDE95403881C81AA6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -388,6 +508,7 @@
 		};
 		60E7FA8D1841A0A600B9A940 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D661F3EBDE95403881C81AA6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -460,6 +581,7 @@
 				60E7FA8D1841A0A600B9A940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60E7FA8E1841A0A600B9A940 /* Build configuration list for PBXNativeTarget "IgradesTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +590,7 @@
 				60E7FA901841A0A600B9A940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
